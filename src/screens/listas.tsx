@@ -33,7 +33,7 @@ export function ListaScreen() {
             {item}
           </Text>
         ))}
-      </View>
+      </View>a
     </View>
   );
 }
