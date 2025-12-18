@@ -1,7 +1,7 @@
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 
 export type RootStackParamList = {
-  loguin: undefined;
+  login: undefined;
   soma: undefined;
   listas: undefined;
 };

@@ -15,8 +15,8 @@ export default function App() {
     <>
       <SafeAreaView className="flex-1">
         <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="Login" component={LoginScreen} />
+          <Stack.Navigator initialRouteName='login' screenOptions={{headerShown: false}}>
+            <Stack.Screen name="login" component={LoginScreen} />
             <Stack.Screen name="soma" component={Soma} />
             <Stack.Screen name="listas" component={ListaScreen} />
           </Stack.Navigator>
