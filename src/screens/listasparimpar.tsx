@@ -27,7 +27,7 @@ export function Listasparimpar() {
   async function carregarLista() {
     const dados = await getData('listasparimpar');
     if (dados) {
-      setLista(dados);
+      setLista(JSON.parse(dados) as number[]);
     }
   }
   useEffect(() => {
